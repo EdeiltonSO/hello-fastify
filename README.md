@@ -15,7 +15,7 @@ Sem segredo:
 ### Requisitos funcionais
 
 - [x] Usuário deve poder criar uma transação;
-- [ ] Usuário deve poder obter um resumo da própria conta;
+- [x] Usuário deve poder obter um resumo da própria conta;
 - [x] Usuário deve poder listar todas as transações que já ocorreram na própria conta;
 - [x] Usuário deve poder visualizar uma transação única;
 
