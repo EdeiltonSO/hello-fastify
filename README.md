@@ -22,5 +22,5 @@ Sem segredo:
 ### Regras de negócio
 
 - [x] Transação pode ser do tipo crédito (se soma ao valor total) ou débito (se subtrai do valor total);
-- [ ] Deve ser possível identificarmos o usuário entre as requisições. Não teremos login e senha, mas precisamos que o usuário A faça transações de crédito e débito na própria conta e quando o usuário B for fazer o mesmo, não impacte na atividade da conta do usuário A;
-- [ ] Usuário só pode visualizar transações que ele criou;
+- [x] Deve ser possível identificarmos o usuário entre as requisições. Não teremos login e senha, mas precisamos que o usuário A faça transações de crédito e débito na própria conta e quando o usuário B for fazer o mesmo, não impacte na atividade da conta do usuário A;
+- [x] Usuário só pode visualizar transações que ele criou;
