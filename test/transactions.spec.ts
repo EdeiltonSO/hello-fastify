@@ -1,4 +1,4 @@
-import { afterAll, beforeAll, describe, expect, it, test } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 import request from 'supertest'
 import { app } from '../src/app'
 
@@ -32,8 +32,6 @@ describe('Transaction routes', () => {
       })
 
     const cookies = createTransactionResponse.get('Set-Cookie')
-
-    console.log(cookies)
 
     const listTransactionsResponse = await request(app.server)
       .get('/transactions')
