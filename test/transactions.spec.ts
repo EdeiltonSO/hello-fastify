@@ -1,7 +1,6 @@
 import { afterAll, beforeAll, describe, expect, it, test } from 'vitest'
 import request from 'supertest'
 import { app } from '../src/app'
-import { title } from 'process'
 
 describe('Transaction routes', () => {
   beforeAll(async () => {
@@ -47,7 +46,5 @@ describe('Transaction routes', () => {
         amount: 5000,
       }),
     ])
-
-    // console.log(createTransactionResponse)
   })
 })
